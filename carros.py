@@ -13,5 +13,6 @@ while continuar == "s" or continuar == "S":
 		maiorvel = max(listavelo)
 		maiorano = max(listaano)
 		mediavel = (sum(listavelo))/(len(listavelo))
-		print ("A maior velocidade encontrada foi de {:.2f} km/h o carro mais novo é de {} e a media de velocidade é {:.2f} km/h".format (maiorvel,maiorano,mediavel))
+if len(listaano)!=0:
+  print ("A maior velocidade encontrada foi de {:.2f}km/h o carro mais novo é de {} e a media de velocidade é {:.2f} km/h".format (maiorvel,maiorano,mediavel)) km/h".format (maiorvel,maiorano,mediavel))
 
