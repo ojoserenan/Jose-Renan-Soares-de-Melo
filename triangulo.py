@@ -1,11 +1,15 @@
-num = int(input("Digite uma entrada:"))
+num = int(input("Digite a entrada:"))
 i = 1
+j = 1
+k = 1
 triangulo = 0
 while triangulo < num:
-  triangulo = i*(i+1)*(i+2)
+  triangulo = i*(j+1)*(k+2)
   i = i+1
+  j = j+1
+  k = k+1
 if triangulo == num:
-  print (i,"*",i+1,"*",i+2,"=",num )
-  print ("\n verdadeiro")
+  print(i-1,j,k+1)
+  print("triangular")
 else:
-  print ("falso")
+  print ("não é triangular")
